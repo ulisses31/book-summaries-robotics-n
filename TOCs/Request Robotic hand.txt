@@ -1,0 +1,2 @@
+Please create me a detailed plan on how to build a cheap but effective robotic hand that can pick objects of different shapes and sizes.
+Give me the list of parts used, how to put them together step by step and explain the theory behind this all.

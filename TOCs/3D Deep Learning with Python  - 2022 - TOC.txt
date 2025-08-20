@@ -1,0 +1,132 @@
+3D Deep Learning with Python - 2022 - TOC
+
+PART 1: 3D Data Processing Basics
+
+Chapter 1: Introducing 3D Data Processing
+Technical requirements  
+Setting up a development environment  
+3D data representation  
+  - Understanding point cloud representation  
+  - Understanding mesh representation  
+  - Understanding voxel representation  
+3D data file format - Ply files  
+3D data file format - OBJ files  
+Understanding 3D coordination systems  
+Understanding camera models  
+Coding for camera models and coordination systems  
+Summary  
+
+Chapter 2: Introducing 3D Computer Vision and Geometry
+Technical requirements
+Exploring the basic concepts of rendering, rasterization, and shading
+ - Understanding barycentric coordinates
+ - Light source models
+ - Understanding the Lambertian shading model
+ - Understanding the Phong lighting model
+Coding exercises for 3D rendering
+Using PyTorch3D heterogeneous batches and PyTorch optimizers
+ - A coding exercise for a heterogeneous minibatch
+Understanding transformations and rotations
+ - A coding exercise for transformation and rotation
+Summary
+
+PART 2: 3D Deep Learning Using PyTorch3D
+
+Chapter 3: Fitting Deformable Mesh Models to Raw Point Clouds
+Technical requirements  
+Fitting meshes to point clouds - the problem  
+Formulating a deformable mesh fitting problem into an optimization problem  
+Loss functions for regularization  
+  - Mesh Laplacian smoothing loss  
+  - Mesh normal consistency loss  
+  - Mesh edge loss  
+Implementing the mesh fitting with PyTorch3D  
+  - The experiment of not using any regularization loss functions  
+  - The experiment of using only the mesh edge loss
+Summary  
+
+Chapter 4: Learning Object Pose Detection and Tracking by Differentiable Rendering
+Technical requirements  
+Why we want to have differentiable rendering  
+How to make rendering differentiable  
+- What problems can be solved by using differentiable rendering  
+The object pose estimation problem  
+How it is coded  
+- An example of object pose estimation for both silhouette fitting and texture fitting  
+Summary  
+
+Chapter 5: Understanding Differentiable Volumetric Rendering
+Technical requirements  
+Overview of volumetric rendering  
+Understanding ray sampling  
+Using volume sampling  
+Exploring the ray marcher  
+Differentiable volumetric rendering  
+- Reconstructing 3D models from multi-view images  
+Summary  
+
+Chapter 6: Exploring Neural Radiance Fields (NeRF)
+Technical requirements  
+Understanding NeRF  
+- What is a radiance field?  
+- Representing radiance fields with neural networks  
+Training a NeRF model  
+Understanding the NeRF model architecture  
+Understanding volume rendering with radiance fields  
+- Projecting rays into the scene  
+- Accumulating the color of a ray  
+Summary  
+
+PART 3: State-of-the-art 3D Deep Learning Using PyTorch3D
+
+Chapter 7: Exploring Controllable Neural Feature Fields
+Technical requirements  
+Understanding GAN-based image synthesis  
+Introducing compositional 3D-aware image synthesis  
+Generating feature fields  
+Mapping feature fields to images  
+Exploring controllable scene generation  
+  - Exploring controllable car generation  
+  - Exploring controllable face generation  
+Training the GIRAFFE model  
+  - Frechet Inception Distance  
+  - Training the model  
+Summary  
+
+Chapter 8: Modeling the Human Body in 3D
+Technical requirements  
+Formulating the 3D modeling problem  
+ - Defining a good representation  
+Understanding the Linear Blend Skinning technique  
+Understanding the SMPL model  
+ - Defining the SMPL model  
+Using the SMPL model  
+Estimating 3D human pose and shape using SMPLify  
+ - Defining the optimization objective function  
+Exploring SMPLify  
+ - Running the code  
+ - Exploring the code  
+Summary  
+
+Chapter 9: Performing End-to-End View Synthesis with SynSin
+Technical requirements  
+Overview of view synthesis  
+SynSin network architecture  
+ - Spatial feature and depth networks  
+ - Neural point cloud renderer  
+ - Refinement module and discriminator  
+Hands-on model training and testing  
+Summary  
+
+Chapter 10: Mesh R-CNN
+Technical requirements  
+Overview of meshes and voxels  
+Mesh R-CNN architecture  
+ - Graph convolutions  
+ - Mesh predictor  
+Demo of Mesh R-CNN with PyTorch  
+ - Demo  
+Summary  
+
+Other Books You May Enjoy
+

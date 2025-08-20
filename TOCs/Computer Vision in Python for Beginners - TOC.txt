@@ -1,0 +1,383 @@
+Introduction to Course and Instructor
+1. Why Computer Vision
+2. Introduction to Instructor
+3. About AI Sciences
+4. Course Outline
+5. Methodology
+6. Computer Vision Applicatoins
+7. Final Project
+8. Request for Your Honest Review
+9. Github & OneDrive Link to get the Course Materials
+
+Introduction to Images
+10. Github & OneDrive Link to get the Course Materials
+11. Grayscale Image
+12. Quiz(Grayscale Image)
+13. Solution(Grayscale Image)
+14. Python Warning
+15. Grayscale Spectrum
+16. Answer to Question
+17. Reading, Manipulating and Saving Grayscale Image using Matplotlib Python
+18. Quiz(Reading, Manipulating and Saving Grayscale Image using Matplotlib Python)
+19. Solution(Reading, Manipulating and Saving Grayscale Image using Matplotlib Python)
+20. Reading, Manipulating and Saving Grayscale Image using OpenCV Python
+21. Introduction to RGB Images
+22. Quiz(Introduction to RGB Images)
+23. Solution(Introduction to RGB Images)
+24. RGB Color Images Matplotlib and OpenCV
+25. Quiz(RGB Color Images Matplotlib and OpenCV)
+26. Solution (RGB Color Images Matplotlib and OpenCV)
+27. RGB to HSV theory and Algorithm
+28. RGB to HSV Algorithm Implementation using Python
+29. Quiz(RGB to HSV Algorithm Implementation using Python)
+30. Solution(RGB to HSV Algorithm Implementation using Python)
+31. Red Rose Extraction or Segmentation using HSV Python
+32. Quiz(Red Rose Extraction or Segmentation using HSV Python)
+33. Solution(Red Rose Extraction or Segmentation using HSV Python)
+34. Hyper Spectral Images
+
+2D Scaling Transformations
+35. Github & OneDrive Link to get the Course Materials
+36. Introduction to Geometric Transformations
+37. Scaling Example in OpenCV
+38. Quiz(Scaling Example in OpenCV)
+39. Solution(Scaling Example in OpenCV)
+40. Scaling in Real Space
+41. Quiz(Scaling in Real Space)
+42. Solution(Scaling in Real Space)
+43. Linear Transformation Explained
+44. Scaling is a Linear Transformations
+45. Scaling as a Matrix Multiplication Example Python
+46. Quiz(Scaling as a Matrix Multiplication Example Python)
+47. Solution(Scaling as a Matrix Multiplication Example Python)
+48. Image Coordinate System
+49. Image Copy and Flipping Vertically
+50. Quiz 01(Image Copy and Flipping Vertically)
+51. Solution 01(Image Copy and Flipping Vertically)
+52. Quiz 02(Image Copy and Flipping Vertically)
+53. Solution 02(Image Copy and Flipping Vertically)
+54. Continuous Coordinates
+55. Saturations and Holes
+56. Image Doubling and Holes using Python
+57. Inverse Scaling and Quiz
+58. Solution and Nearest Neighbour Interpolation
+59. Inverse Scaling Python
+60. Quiz 01(Inverse Scaling Python)
+61. Solution 01(Inverse Scaling Python)
+62. Quiz 02 (Inverse Scaling Python)
+63. Solution 02(Inverse Scaling Python)
+64. Nearest Neighbour Interpolation
+65. Weighted Average vs Simple Average
+66. Bilinear Interpolation
+67. Bilinear Interpolation Implementation in Python
+68. Scaling Transformation with Bilinear Interpolation Implementation
+69. Scaling Transformation Algorithm(Recap)
+70. Exam
+71. Exam Solution 01
+72. Exam Solution 02
+
+2D Geometric Transformations
+73. Github & OneDrive Link to get the Course Materials
+74. Rotation Introduction
+75. Optional Rotation is Linear Transform Proof
+76. Rotation can Result Negative Coordinates(Problem)
+77. Rotation Computing Width and Hight of Resultant Image(Solution)
+78. Rotation Index Shifting
+79. Quiz(Rotation Index Shifting)
+80. Solution(Rotation Index Shifting)
+81. Rotation Implementation Complete
+82. Quiz(Rotation Implementation Complete)
+83. Solution(Rotation Implementation Complete)
+84. Rotation Implementation(Good Coding Practice)
+85. Quiz(Rotation Implementation(Good Coding Practice))
+86. Solution(Rotation Implementation(Good Coding Practice))
+87. Reflection Introduction
+88. Quiz(Reflection Introduction)
+89. Solution(Reflection Introduction)
+90. Reflection Implementation
+91. Quiz 01(Reflection Implementation)
+92. Solution 01(Reflection Implementation)
+93. Quiz 02(Reflection Implementation)
+94. Solution 02(Reflection Implementation)
+95. Shear Introduction
+96. Shear Implementation and Quiz
+97. Translation and its Nonlinearity(Problem)
+98. Homoginuous Coordinates
+99. Translation as a Matrix(solution)
+100. Homoginuous Representations Off all Transformations
+101. Affine Transformation Implementation
+102. Quiz(Affine Transformation Implementation)
+103. Rotation about any Point Theory
+104. Rotation about any Point Implementation
+105. Reflection about a Line Quiz
+106. Solution(Reflection about a Line)
+107. Transformation Matrix Properties
+108. Transformation Matrix Properties Implementation
+109. Affine Transformation Hierarchy
+110. Optional Affine Transformation SVD
+111. Projective Transformation Homography
+112. Projective Transformation Implementation
+113. Projective Warping Algorithm
+
+Geometric Transformation Estimation (Panorama)
+114. Github & OneDrive Link to get the Course Materials
+115. Goal
+116. Affine Transformation Estimation Introduction
+117. Quiz(Affine Transformation Estimation Introduction)
+118. Solution(Affine Transformation Estimation Introduction)
+
+119. Affine Transformation Estimation Points Correspondences
+120. Estimation Points Marking using Python and Quiz
+121. Affine Transformation Min Number of Points Needed
+122. Affine Transformation Estimation using Python
+123. Affine Transformation Estimation Verification using Python
+124. Affine Transformation Estimation with more than 3 Points
+125. Quiz(Affine Transformation Estimation with more than 3 Points)
+126. Solution(Affine Transformation Estimation with more than 3 Points)
+127. Affine Transformation Estimation with more than 3 Points Implementation
+128. Quiz(Affine Transformation Estimation with more than 3 Points Implementation)
+129. Solution(Affine Transformation Estimation with more than 3 Points Implementation)
+130. Optional Affine Transformation Estimation with LeastSquared
+131. Projective Transformation Estimation Introduction
+132. Projective Transformation Estimation First Implementation having Bug
+133. Projective Transformation Estimation Reason of the Bug
+134. Projective Transformation Estimation Removing Scale Factor
+135. Projective Transformation Estimation DLT
+136. Projective Transformation Estimation DLT Nullspace and Why 4 Points
+137. Projective Transformation Estimation DLT Nullspace Implementation
+138. DLT Implementation
+139. Quiz(DLT Implementation)
+140. Panorama Stitching
+141. Panorama Stitching Implementation in OpenCV
+142. How Projective Transformation Helps in Panorama
+
+Binary Morphology
+143. Github & OneDrive Link to get the Course Materials
+144. Binary Images Theory
+145. Binary Images Python
+146. Structuring Element Kernel and Sliding Window Theory
+147. Structuring Element Python
+148. Erosion Theory
+149. Quiz 01(Erosion Theory)
+150. Solution 01(Erosion Theory)
+151. Quiz 02(Erosion Theory)
+152. Solution 02(Erosion Theory)
+153. Erosion Python
+154. Dilation Theory
+155. Quiz 01(Dilation Theory)
+156. Solution 01(Dilation Theory)
+157. Quiz 02(Dilation Theory)
+158. Solution 02(Dilation Theory)
+159. Dilation Python
+160. Opening Theory
+161. Opening Python
+162. Closing Theory
+163. Closing Python
+164. Gradient Morphology
+165. Gradient Morphology Python
+166. Tophat Blackhat
+
+Image Filtering
+Github & OneDrive Link to get the Course Materials
+Image Blurring 01
+Image Blurring 02
+General Image Filtering
+Convolution
+Naive Edge Detection
+Image Sharpening
+Quiz(Image Sharpening)
+Solution(Image Sharpening)
+Implementation Of Image Blurring Edge Detection Image Sharpening in Python
+Lowpass Highpass Bandpass Filters
+CNN Course(You can Skip)
+
+Canny Edge Detector
+Github & OneDrive Link to get the Course Materials
+Canny Edge Detector Algorithm Introduction
+Canny Edge Detector OpenCV
+Quiz(Canny Edge Detector OpenCV)
+Solution(Canny Edge Detector OpenCV)
+Gaussian Filter Introduction
+Gaussian Filter to Mask Computation
+Gaussian Filter Window Size
+Gaussian Filter Implementation
+Quiz(Gaussian Filter Implementation)
+Solution(Gaussian Filter Implementation)
+Gaussian Filter Smoothing Implementation
+Quiz(Gaussian Filter Smoothing Implementation)
+Solution(Gaussian Filter Smoothing Implementation)
+Image Gradients Theory
+Image Gradients Implementation
+Image Gradients Implementation Datatype Bug
+Derivative of Gaussian
+Derivative of Gaussian Expression
+Derivative of Gaussian Implementation
+Applying DOG Filters
+Gradient Vector
+Gradient Magnitude and Gradient Direction
+Non Maxima Suppression
+Gradient Direction Quantization
+Quiz(Gradient Direction Quantization)
+Solution(Gradient Direction Quantization)
+Gradient Direction Quantization Implementation
+Gradient Direction Quantization Implementation Better Way
+NMS Implementation
+Quiz 01(NMS Implementation)
+Solution 01(NMS Implementation)
+Quiz 02(NMS Implementation)
+Solution 02(NMS Implementation)
+Last Step Thresholding
+Hesterysis Thresholding
+Hesterysis Thresholding Implementation
+
+Shape Detection
+Github & OneDrive Link to get the Course Materials
+Shape Detection Introduction
+Why Edge Detection is not Enough
+RANSAC Introduction
+RANSAC For Lines Coordinate Arrays
+RANSAC For Lines Sampling Points Randomly Implemenation
+Quiz(RANSAC For Lines Sampling Points Randomly Implemenation)
+Solution(RANSAC For Lines Sampling Points Randomly Implemenation)
+RANSAC For Lines Fitting Line With 2 Points
+RANSAC For Lines Fitting Line With 2 Points Implementation
+Quiz(RANSAC For Lines Fitting Line With 2 Points Implementation)
+Solution(RANSAC For Lines Fitting Line With 2 Points Implementation)
+RANSAC For Lines Computing Consistency Score
+RANSAC For Lines Computing Consistency Score Implementation
+RANSAC For Lines Implementation
+RANSAC For Lines Implementation Test on Real Image
+Drawbac
+RANSAC For Lines Implementation Test on Real Image Drawing and Quiz
+RANSAC For Circles
+RANSAC For Circles Consistency Score
+RANSAC For Circles Implementation
+RANSAC For Circles Implementation Real Image
+Drawback
+RANSAC For Circles Implementation Real Image Drawing
+RANSAC General
+RANSAC Quiz
+RANSAC Quiz Solution
+
+Shape Detection Hough Transform
+Github & OneDrive Link to get the Course Materials
+Hough Transform Introduction
+Hough Transform as Voting
+Hough Transform as Voting Loop
+Hough Transform Polar Representation
+Hough Transform Polar Representation Benifits
+Hough Transform Polar Representation Implementation
+Hough Transform Lines Implementation Real Image
+Hough Transform Lines Parameters Conversion
+Hough Transform Lines Drawing
+Solution(Hough Transform Lines Drawing)
+Hough Transform Fast Version
+Hough Transform Circles
+Hough Transform Circles Implementation
+Hough Transform Circles Implementation Drawing
+Solution(Hough Transform Circles Implementation Drawing)
+
+Corner Detection
+Github & OneDrive Link to get the Course Materials
+Corner Definition
+Why Corner
+Corner Measure
+SSD
+Why SSD to be Muted Somewhere
+Corner Detection Implementation 01
+Corner Detection Implementation 02
+Corner Detection Implementation 03
+
+Moravec Corner Detector
+Scale Space
+Infinite Directions Towards Harris Corner Detector
+Harris Corner Detector 01
+Harris Corner Detector 02
+Harris Corner Detector 03
+Harris Corner Detector 04 Structure Tensor
+Harris Corner Detector 05 Final Expression
+Harris Corner Detector Implementation Speedup Convolution
+Harris Corner Detector Implementation 01
+Harris Corner Detector Implementation 02
+Harris Corner Detector as Edge Detector
+
+Automatic Panorama SIFT
+Github & OneDrive Link to get the Course Materials
+Point Correspondence Introduction
+Point Drawing Implementation
+Scale and Orientation Alignment
+SIFT and HOG
+Points Matching
+
+Object Detection
+Github & OneDrive Link to get the Course Materials
+Introduction to Object Detection
+Classification PipleLine
+Sliding Window Implementation
+Shift Scale Rotation Invariance
+Person Detection
+HOG Features
+HandEngineering vs CNNs
+Implementation
+Activity
+
+YOLO Object Detector
+Github & OneDrive Link to get the Course Materials
+CNNS Introduction
+Face Detection Implementation
+YOLO Implementation
+YOLO Image Classfication Revisited
+YOLO Sliding Window Object Localization
+YOLO Sliding Window Efficient Implementation
+YOLO Introduction
+YOLO Training Data Generation
+YOLO Anchor Boxes
+YOLO Algorithm
+YOLO Non Maxima Supression
+YOLO RCNN
+
+Motion
+Github & OneDrive Link to get the Course Materials
+Optical Flow
+BC Assumption
+Optical Flow Derivation
+
+Object Tracking
+Github & OneDrive Link to get the Course Materials
+Tracking by Detection
+Tracking by Detection Motion Model Assumption
+Tracking KLT TLD
+Single Object Tracking
+Multiple Object Tracking
+WebCam and Saving Annotations of Multiple Object Tracking
+
+3D Reconstruction
+Github & OneDrive Link to get the Course Materials
+3d Reconstruction Introduction
+3d Motion Capture
+Camera
+Camera Matrix
+Triangulation
+Camera Matrix Estimation
+Mocap Revisited
+
+Smart CCTV Project
+Github & OneDrive Link to get the Course Materials
+Introduction to the Project
+Introduction to Data
+Reading a Video File
+Change Detection Frame Differencing
+Change Detection Frame Differencing Implementation
+Change Detection Background Subtraction
+Change Detection Background Subtraction MOG
+Denoising using Morphology
+Connected Components
+Connected Components Filtering
+Tracking Change
+Saving Segments
+Saving and Viewing Segments
+Saving and Viewing Segments with Object Detection
+Applications
+THANK YOU Bonus Video
+About AI Sciences
+

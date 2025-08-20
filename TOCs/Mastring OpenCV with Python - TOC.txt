@@ -1,0 +1,287 @@
+1. Introduction to Computer Vision
+Introduction 
+Structure 
+Introduction to Computer Vision 
+Applications of Computer Vision 
+Python 
+OpenCV. 
+ Brief history of OpenCV 
+ OpenCV 4.7 
+Supporting Libraries 
+  NumPy 
+  Matplotlib 
+  SciPy 
+  Scikit-Learn 
+  Scikit-Image 
+  Mahotas 
+  TensorFlow 
+  Keras 
+  Dlib 
+  Environment 
+  Setup 
+  Installing Python 
+  Installing Python on Windows 
+  Installing Python on Ubuntu and Mac 
+  Package Manager 
+  Installing libraries 
+  Installing Mahotas 
+  Installing OpenCV 
+  Verifying our installation 
+  IDE
+Documentation 
+Conclusion 
+Test Your Understanding 
+
+2. Getting Started with Images 
+Structure 
+Introduction to images and pixels 
+Loading and displaying images 
+  Imread() 
+  Imshow 
+  Imwrite 
+  WaitKey 
+  DestroyAllWindows 
+Manipulating images with pixels 
+ Accessing individual pixels 
+ Accessing a region of interest (ROI) 
+Drawing in OpenCV 
+ Line 
+ Rectangle 
+ Circle 
+ Text 
+Conclusion 
+Points to remember 
+Test your understanding 
+
+3. Image Processing Fundamentals 
+Structure 
+Geometric transformations 
+ Image translation 
+ Rotation 
+ Scaling 
+ Flipping
+ Cropping 
+Arithmetic Operations 
+ Addition 
+ Subtraction 
+ Multiplication and division 
+Bitwise operations 
+ AND 
+ OR 
+ XOR 
+ NOT 
+Channels and color spaces 
+ Red Green Blue (RGB) color space 
+ Blue Green Red (BGR) color space 
+ Hue Saturation Value (HSV) color space 
+ Hue Saturation Lightness (HSL) color space 
+ cvtColor() 67 Hue Saturation Lightness (HSL) color space 
+ LAB color space 
+ YCbCr color space 
+Conclusion 
+Points to Remember 
+Test Your Understanding 
+
+4. Image Operations 
+Structure 
+Morphological operations on images 
+ Erosion 
+ cv2.Erode() 
+ Dilation 
+ cv2.Dilate() 
+ Opening 
+ Cv2.morphologyex() 
+ Closing 
+ Morphological gradient
+ Top hat 
+ Bottom hat 
+Smoothing and blurring 
+ Average blurring 
+ Cv2.blur() 
+ Median blur 
+ cv2.medianBlur() 
+ Gaussian blur 
+ cv2.gaussianBlur() 
+ Bilateral filter 
+ cv2.bilateralFilter() 
+Conclusion 
+Points to remember 
+Test your understanding 
+
+5. Image Histograms 
+Structure 
+Introduction to histograms 
+ cv2.calcHist() 
+Matplotlib helper functions 
+Histogram for colored images 
+Two-dimensional histograms 
+Histogram with masks 
+Histogram equalization 
+ cv2.equalizeHist() 
+Histogram equalization on colored images 
+ Adaptive histogram equalization
+ Contrast limited adaptive histogram equalization (CLAHE) 
+ cv2.createCLAHE() 
+ Histograms for feature extraction 
+Conclusion 
+Points to remember 
+Test your understanding 
+
+6. Image Segmentation 
+Structure 
+Introduction to Image Segmentation 
+Basic Segmentation Techniques 
+ Image thresholding 
+ Simple Thresholding 
+ cv2.threshold() 
+ Adaptive Thresholding 
+ cv2.adaptiveThreshold() 
+Otsu’s Thresholding 
+ Edge and contour-based segmentation 
+ Advanced Segmentation Techniques 
+ Watershed Algorithm 
+ GrabCut algorithm 
+ cv2.grabCut() 
+ Clustering-based Segmentation 
+Deep Learning-based Segmentation 
+Conclusion 
+Points to Remember 
+Test your understanding 
+
+7. Edges and Contours 
+Structure 
+Introduction to edges 
+Image gradients 
+ Filters for image gradients 
+ Sobel Filters 
+ cv2.Sobel() 
+ Scharr Operator 
+ cv2.filter2D 
+ Laplacian Operators 
+Canny Edge Detector 
+ cv2.Canny() 
+Introduction to Contours 
+Contour Hierarchy
+Extracting and Visualizing Contours 
+ cv2.findContours() 
+ cv2.drawContours() 
+Contour Moments 
+ cv2.Moments() 
+Properties of Contours 
+ Area 
+ cv2.contourArea() 
+ Perimeter 
+ Centroid/Center Of mass 
+ Bounding Rectangle 
+ cv2.boundingRect() 
+ cv2.minAreaRect() 
+ cv2.boxPoints() 
+ Extent 
+ Convex Hull 
+ cv2.convexHull() 
+ cv2.polyLines() 
+ Solidity 
+Contour Approximation 
+ cv2.approxPolyDP() 
+Contour Filtering and Selection 
+Conclusion 
+Points to Remember 
+Test your understanding 
+
+8. Machine Learning with Images 
+Structure
+Introduction to Machine Learning 
+ Overfitting and Underfitting 
+ Evaluation Metrics 
+ Hyperparameters and Tuning 
+KMeans Clustering 
+ cv2.kmeans() 
+k-Nearest Neighbors (k-NN) 
+ Feature Scaling 
+ Hyperparameters 
+Logistic Regression 
+ Hyperparameters 
+Decision Trees 
+ Hyperparameters 
+Ensemble Learning
+Random Forest 
+ Randomness 
+ Hyperparameters 
+Support Vector Machines 
+Conclusion 
+Points to Remember 
+Test your understanding 
+
+9. Advanced Computer Vision Algorithms 
+Structure 
+FAST (Features from Accelerated Segment Test) 
+  cv2.FastFeatureDetector_create 
+Harris Keypoint Detection 
+  cv2.cornerHarris 
+BRIEF (Binary Robust Independent Elementary Features) 
+  cv2.ORB_create
+ORB (Oriented FAST and Rotated BRIEF) 
+SIFT (Scale-Invariant Feature Transform) 
+  cv2.SIFT_create 
+RootSIFT (Root Scale-Invariant Feature Transform) 
+SURF (Speeded-Up Robust Features) 
+Local Binary Patterns 
+Histogram of Oriented Gradients 
+Conclusion 
+Points to Remember 
+Test Your Understanding 
+
+10. Neural Networks 
+Structure 
+Introduction to Neural Networks 
+Design of a Neural Network 
+Activation Functions 
+Training a Neural Network 
+  Gradient descent 
+Convolutional neural networks 
+Layers in a CNN 
+  Convolutional Layer 
+  Pooling Layer 
+  Fully Connected Layer 
+  Activation Layer 
+First Neural Network Model 
+  Data Loading
+  Model Instantiation 
+  Results 
+  Dropout Regularization 
+Neural network architectures 
+  LeNet 
+  AlexNet 
+  VGGNET 
+Transfer Learning 
+Other Network Architectures 
+  GoogleNet 
+  Inception Module 
+  Architecture 
+  ResNet 
+Conclusion 
+Points to remember 
+Test your understanding 
+
+11. Object Detection Using OpenCV 
+Structure 
+Introduction to object detection 
+Detecting objects using sliding windows 
+Template matching using OpenCV 
+  cv2.matchTemplate 
+Haar cascades 
+Feature extraction for object detection 
+  Image pyramids 
+Facial landmarks with DLIB 
+Object tracking using OpenCV 
+Conclusion 
+Points to remember 
+Test your understanding 
+
+12.Projects Using OpenCV 
+Structure 
+Automated book inventory system 
+Document scanning using OpenCV and OCR 
+Face recognition 
+Drowsiness detection 
+Conclusion

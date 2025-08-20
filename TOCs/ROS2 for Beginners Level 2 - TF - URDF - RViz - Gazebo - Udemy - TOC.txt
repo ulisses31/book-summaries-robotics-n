@@ -1,0 +1,97 @@
+ROS2 for Beginners Level 2 - TF - URDF - RViz - Gazebo - Udemy - TOC
+
+Introduction
+
+1. Welcome!
+2. Course Overview - How to Follow the Course
+3. Install and setup ROS2 [recap]
+4. Install Quick Fix (Gazebo)
+5. Programming tools for this course
+
+TF (TransForm) Overview
+
+6. Intro
+7. Visualise a Robot TFs in RViz 2
+8. Relationship Between TFs, TF tree
+9. What problem are we trying to solve with TF?
+
+Create a URDF for a Robot
+
+10. Intro - What is URDF
+11. Your first URDF file: Create and Visualize a Link
+12. Material - Add Some Colors
+13. Combine 2 Links with a Joint
+14. Another example of the process to write the URDF right the first time
+15. Different Types of Joints in a URDF
+16. Add a Wheel to the Robot
+17. Activity 01 - Complete the URDF for the Robot
+18. Activity 01 - Solution
+
+Broadcast TFs with the Robot State Publisher
+
+19. Intro
+20. How the Robot State Publisher and URDF Work Together
+21. Run the Robot State Publisher with URDF in the Terminal (Command Line)
+22. Create a Robot Description Package to Install the URDF
+23. Write a Launch file to Start the Robot State Publisher with URDF (XML)
+24. Python Launch File
+25. Activity 02 - Add Rviz Config in the Launch File
+26. Activity 02 - Solution
+
+Improve the URDF with Xacro
+
+27. Intro
+28. Make the URDF Compatible with Xacro
+29. Create Variables with Xacro Properties
+30. Activity 03 - Xacro Properties
+31. Activity 03 - Solution
+32. Create Functions with Xacro Macros
+33. Include a Xacro File in Another Xacro File
+34. The Xacro Command to Generate the URDF
+35. Real Meshes - Quick Overview
+
+Simulate Your Robot with Gazebo
+
+36. [New Gazebo] UPDATE - PLEASE READ
+37. Intro
+38. [New Gazebo] Run Gazebo and how it works with ROS
+39. Run Gazebo
+40. How Gazebo Works with ROS
+41. [New Gazebo] Inertia and collision tags
+42. Add Inertia Tags in the URDF
+43. Activity 04 - Inertia Macros
+44. Activity 04 - Solution
+45. Add Collision Tags in the URDF
+46. [New Gazebo] Spawn the robot in Gazebo
+47. Spawn the Robot in Gazebo
+48. [New Gazebo] Launch file to start the robot in Gazebo
+49. Activity 05 - Launch File to Start Robot in Gazebo
+50. Activity 05 - Solution
+51. Fixing the Inertia Values
+52. Fixing the Colors with Gazebo Material
+53. [New Gazebo] Add a Gazebo plugin to control the robot
+54. Add a Gazebo Plugin to Control the Robot
+55. [New Gazebo] Create a world in your environment
+56. Create a World in Gazebo
+57. Launch the Robot in the World
+
+Add a Sensor in Gazebo
+
+58. Intro
+59. Add a Camera to the URDF
+60. Add a Gazebo Plugin for the Camera
+61. (Optional) Quick Fix For the Camera to Work with ROS
+
+Final Project
+
+62. Intro - Final Project Overview
+63. Step 1 - URDF Links and Joints
+64. Step 2 - Adapt the Robot for Gazebo
+65. Step 3 - Add Gazebo Plugins
+66. Step 4 - Combine the 2 Robots
+
+Conclusion
+
+67. What you’ve learned - Recap
+68. What to do next
+69. Bonus Lecture

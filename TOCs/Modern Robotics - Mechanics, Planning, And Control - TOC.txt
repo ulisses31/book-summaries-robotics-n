@@ -1,0 +1,244 @@
+Modern Robotics - Mechanics, Planning, And Control - TOC
+
+1 Preview
+
+2 Configuration Space
+2.1 Degrees of Freedom of a Rigid Body
+2.2 Degrees of Freedom of a Robot
+2.2.1 Robot Joints
+2.2.2 Grubler’s Formula
+2.3 Configuration Space: Topology and Representation
+2.3.1 Configuration Space Topology
+2.3.2 Configuration Space Representation
+2.4 Configuration and Velocity Constraints
+2.5 Task Space and Workspace
+2.6 Summary
+2.7 Notes and References
+2.8 Exercises
+
+3 Rigid-Body Motions
+3.1 Rigid-Body Motions in the Plane
+3.2 Rotations and Angular Velocities
+3.2.1 Rotation Matrices
+3.2.2 Angular Velocities
+3.2.3 Exponential Coordinate Representation of Rotation
+3.3 Rigid-Body Motions and Twists
+3.3.1 Homogeneous Transformation Matrices
+3.3.2 Twists
+3.3.3 Exponential Coordinate Representation of Rigid-Body Motions
+3.4 Wrenches
+3.5 Summary
+3.6 Software
+3.7 Notes and References
+3.8 Exercises
+
+4 Forward Kinematics
+4.1 Product of Exponentials Formula
+4.1.1 First Formulation: Screw Axes in the Base Frame
+4.1.2 Examples
+4.1.3 Second Formulation: Screw Axes in the End-E↵ector Frame
+4.2 The Universal Robot Description Format
+4.3 Summary
+4.4 Software
+4.5 Notes and References
+4.6 Exercises
+
+5 Velocity Kinematics and Statics
+5.1 Manipulator Jacobian
+5.1.1 Space Jacobian
+5.1.2 Body Jacobian
+5.1.3 Visualizing the Space and Body Jacobian
+5.1.4 Relationship between the Space and Body Jacobian
+5.1.5 Alternative Notions of the Jacobian
+5.1.6 Looking Ahead to Inverse Velocity Kinematics
+5.2 Statics of Open Chains
+5.3 Singularity Analysis
+5.4 Manipulability
+5.5 Summary
+5.6 Software
+5.7 Notes and References
+5.8 Exercises
+
+6 Inverse Kinematics
+6.1 Analytic Inverse Kinematics
+6.1.1 6R PUMA-Type Arm
+6.1.2 Stanford-Type Arms
+6.2 Numerical Inverse Kinematics
+6.2.1 Newton–Raphson Method
+6.2.2 Numerical Inverse Kinematics Algorithm
+6.3 Inverse Velocity Kinematics
+6.4 A Note on Closed Loops
+6.5 Summary
+6.6 Software
+6.7 Notes and References
+6.8 Exercises
+
+7 Kinematics of Closed Chains
+7.1 Inverse and Forward Kinematics
+7.1.1 3⇥RPR Planar Parallel Mechanism
+7.1.2 Stewart–Gough Platform
+7.1.3 General Parallel Mechanisms
+7.2 Di↵erential Kinematics
+7.2.1 Stewart–Gough Platform
+7.2.2 General Parallel Mechanisms
+7.3 Singularities
+7.4 Summary
+7.5 Notes and References
+7.6 Exercises
+
+8 Dynamics of Open Chains
+8.1 Lagrangian Formulation
+8.1.1 Basic Concepts and Motivating Examples
+8.1.2 General Formulation
+8.1.3 Understanding the Mass Matrix
+8.1.4 Lagrangian Dynamics vs. Newton–Euler Dynamics
+8.2 Dynamics of a Single Rigid Body
+8.2.1 Classical Formulation
+8.2.2 Twist–Wrench Formulation
+8.2.3 Dynamics in Other Frames
+8.3 Newton–Euler Inverse Dynamics
+8.3.1 Derivation
+8.3.2 Newton-Euler Inverse Dynamics Algorithm
+8.4 Dynamic Equations in Closed Form
+8.5 Forward Dynamics of Open Chains
+8.6 Dynamics in the Task Space
+8.7 Constrained Dynamics
+8.8 Robot Dynamics in the URDF
+8.9 Actuation, Gearing, and Friction
+8.9.1 DC Motors and Gearing
+8.9.2 Apparent Inertia
+8.9.3 Newton–Euler Inverse Dynamics Algorithm Accounting for Motor Inertias and Gearing
+8.9.4 Friction
+8.9.5 Joint and Link Flexibility
+8.10 Summary
+8.11 Software
+8.12 Notes and References
+8.13 Exercises
+
+9 Trajectory Generation
+9.1 Definitions
+9.2 Point-to-Point Trajectories
+9.2.1 Straight-Line Paths
+9.2.2 Time Scaling a Straight-Line Path
+9.3 Polynomial Via Point Trajectories
+9.4 Time-Optimal Time Scaling
+9.4.1 The (s, s˙) Phase Plane
+9.4.2 The Time-Scaling Algorithm
+9.4.3 A Variation on the Time-Scaling Algorithm
+9.4.4 Assumptions and Caveats
+9.5 Summary
+9.6 Software
+9.7 Notes and References
+9.8 Exercises
+
+10 Motion Planning
+10.1 Overview of Motion Planning
+10.1.1 Types of Motion Planning Problems
+10.1.2 Properties of Motion Planners
+10.1.3 Motion Planning Methods
+10.2 Foundations
+10.2.1 Configuration Space Obstacles
+10.2.2 Distance to Obstacles and Collision Detection
+10.2.3 Graphs and Trees
+10.2.4 Graph Search
+10.3 Complete Path Planners
+10.4 Grid Methods
+10.4.1 Multi-Resolution Grid Representation
+10.4.2 Grid Methods with Motion Constraints
+10.5 Sampling Methods
+10.5.1 The RRT Algorithm
+10.5.2 The PRM Algorithm
+10.6 Virtual Potential Fields
+10.6.1 A Point in C-space
+10.6.2 Navigation Functions
+10.6.3 Workspace Potential
+10.6.4 Wheeled Mobile Robots
+10.6.5 Use of Potential Fields in Planners
+10.7 Nonlinear Optimization
+10.8 Smoothing
+10.9 Summary
+10.10Notes and References
+10.11Exercises
+
+11 Robot Control
+11.1 Control System Overview
+11.2 Error Dynamics
+11.2.1 Error Response
+11.2.2 Linear Error Dynamics
+11.3 Motion Control with Velocity Inputs
+11.3.1 Motion Control of a Single Joint
+11.3.2 Motion Control of a Multi-joint Robot
+11.3.3 Task-Space Motion Control
+11.4 Motion Control with Torque or Force Inputs
+11.4.1 Motion Control of a Single Joint
+11.4.2 Motion Control of a Multi-joint Robot
+11.4.3 Task-Space Motion Control
+11.5 Force Control
+11.6 Hybrid Motion–Force Control
+11.6.1 Natural and Artificial Constraints
+11.6.2 A Hybrid Motion–Force Controller
+11.7 Impedance Control
+11.7.1 Impedance-Control Algorithm
+11.7.2 Admittance-Control Algorithm
+11.8 Low-Level Joint Force/Torque Control
+11.9 Other Topics
+11.10 Summary
+11.11 Software
+11.12 Notes and References
+11.13 Exercises
+
+12 Grasping and Manipulation
+12.1 Contact Kinematics
+12.1.1 First-Order Analysis of a Single Contact
+12.1.2 Contact Types: Rolling, Sliding, and Breaking Free
+12.1.3 Multiple Contacts
+12.1.4 Collections of Bodies
+12.1.5 Other Types of Contacts
+12.1.6 Planar Graphical Methods
+12.1.7 Form Closure
+12.2 Contact Forces and Friction
+12.2.1 Friction
+12.2.2 Planar Graphical Methods
+12.2.3 Force Closure
+12.2.4 Duality of Force and Motion Freedoms
+12.3 Manipulation
+12.4 Summary
+12.5 Notes and References
+12.6 Exercises
+
+13 Wheeled Mobile Robots
+13.1 Types of Wheeled Mobile Robots
+13.2 Omnidirectional Wheeled Mobile Robots
+13.2.1 Modeling
+13.2.2 Motion Planning
+13.2.3 Feedback Control
+13.3 Nonholonomic Wheeled Mobile Robots
+13.3.1 Modeling
+13.3.2 Controllability
+13.3.3 Motion Planning
+13.3.4 Feedback Control
+13.4 Odometry
+13.5 Mobile Manipulation
+13.6 Summary
+13.7 Notes and References
+13.8 Exercises
+
+A Summary of Useful Formulas
+
+B Other Representations of Rotations
+B.1 Euler Angles
+B.1.1 Algorithm for Computing the ZYX Euler Angles
+B.1.2 Other Euler Angle Representations
+B.2 Roll–Pitch–Yaw Angles
+B.3 Unit Quaternions
+B.4 Cayley–Rodrigues Parameters
+
+C Denavit–Hartenberg Parameters
+C.1 Assigning Link Frames
+C.2 Why Four Parameters are Su"cient
+C.3 Manipulator Forward Kinematics
+C.4 Examples
+C.5 Relation Between the PoE and D–H Representations
+C.6 A Final Comparison
+
+D Optimization and Lagrange Multipliers

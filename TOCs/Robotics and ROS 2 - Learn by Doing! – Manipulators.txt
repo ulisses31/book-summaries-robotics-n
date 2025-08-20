@@ -1,0 +1,152 @@
+Robotics and ROS 2 - Learn by Doing! – Manipulators
+
+Introduction
+
+Course Motivation
+Meet your Teacher
+[BONUS]: Boost your Robotics Software Developer Career
+Project Architecture
+Course Presenetation
+Course Material
+
+Setup
+
+Install Ubuntu on Virtual Machine
+Install Ubuntu on Dual Boot
+<LAB>Install ROS 2 Jazzy on Ubuntu 24.04</LAB>
+<LAB>Install ROS 2 Humble on Ubuntu 22.04</LAB>
+<LAB>Configure the Development Environment in Ubuntu 24.04</LAB>
+<LAB>Configure the Development Environment in Ubuntu 22.04</LAB>
+
+Introduction to ROS 2
+
+Why a Robot Operating System?
+What is ROS 2
+Why a NEW Robot Operating System?
+ROS 2 Architecture
+Hardware Abstraction
+Low-Level Device Control
+Messaging Between Process
+Package Management
+Architecture of a ROS 2 Application
+Introduction to ROS 2
+<LAB>Create and Activate a Workspace</LAB>
+<PY>Simple Publisher</PY>
+<C++>Simple Publisher</C++>
+<PY>Simple Subscriber</PY>
+<C++>Simple Subscriber</C++>
+Workspaces, Publishers, Subscribers
+
+Digital Twin
+
+Robot Description
+URDF
+<LAB>Create the URDF Model</LAB>
+<LAB>Complete the URDF Model</LAB>
+RViz 2
+Parameters
+<PY>Parameters</PY>
+<C++>Parameters</C++>
+<LAB>ROS 2 Parameter CLI</LAB>
+URDF and Parameters
+<LAB>Visualize the Robot</LAB>
+Launch Files
+<LAB>Visualize the Robot with Launch Files</LAB>
+Add an RGB Camera to your Robot
+Gazebo
+<LAB>Simulate the Robot</LAB>
+<LAB>Launch the Simulation</LAB>
+Simulate an RGB Camera in Gazebo
+
+Control
+
+ROS 2 Control
+Control Types
+<LAB>ros2_control with Gazebo</LAB>
+YAML Configuration File
+<LAB>Configure ros2_control</LAB>
+<LAB>Launch the Controller</LAB>
+<LAB>ros2_control CLI</LAB>
+
+Kinematics
+
+Robot Kinematics
+Pose of a Robot Arm
+Translation Vector
+Elementary Rotations
+Rotation Matrix
+Transformation Matrix
+Forward Kinematics
+TF2 Library
+<LAB>TF2 Tools</LAB>
+ROS 2 Services
+<PY>Service Server</PY>
+<C++>Service Server</C++
+Static and Dynamic Transformations
+<PY>Service Client</PY>
+<C++>Service Client</C++>
+Angle Representations
+Euler Angles
+Quaternion
+<PY>Euler to Quaternion Service</PY>
+<C++>Euler to Quaternion Service</C++>
+Inverse Kinematics
+MoveIt! 2
+<LAB>Configure MoveIt! 2</LAB>
+<LAB>Launch MoveIt! 2</LAB>
+
+Application
+
+Application Layer
+ROS 2 Actions
+<PY>Create an Action Server</PY>
+<C++>Create an Action Server</C++>
+<PY>Create an Action Client</PY>
+<C++>Create an Action Client</C++>
+MoveIt! 2 API
+<PY>MoveIt! 2 API</PY>
+<C++>MoveIt! 2 API</C++>
+<LAB>MoveIt! 2 API</LAB>
+Task Server
+<PY>Task Server</PY>
+<C++>Task Server</C++>
+<LAB>Task Server</LAB>
+
+Alexa Integration
+
+Alexa Skill
+<LAB>Develop Alexa Skills</LAB>
+<LAB>Integrate Alexa Skills<LAB>
+<LAB>Interface the Robot with Alexa</LAB>
+<LAB>Voice Interaction Model</LAB>
+<LAB>Launch the Simulation of the Robot</LAB>
+
+Build the Robot
+
+Mechanics and Electronics
+Arduino and ROS 2
+<HWLAB>Publisher Node with Arduino</HWLAB>
+<PY>Publisher Node with Arduino</PY>
+<C++>Publisher Node with Arduino</C++>
+<HWLAB>Test Publisher Node with Arduino</HWLAB>
+<HWLAB>Subscriber Node with Arduino</HWLAB>
+<PY>Subscriber Node with Arduino</PY>
+<C++>Subscriber Node with Arduino</C++>
+<HWLAB>Test Subscriber Node with Arduino</HWLAB>
+<HWLAB>Servomotors with Arduino</HWLAB>
+ROS 2 Lifecycle Nodes
+<PY>Create a Lifecycle Node</PY>
+<C++>Create a Lifecycle Node</C++>
+<LAB>ROS 2 Lifecycle CLI</LAB>
+<C++>ros2_control Interface - Declaration</C++>
+<C++>ros2_control Interface - Definition</C++>
+<C++>ros2_control Interface - Plugin</C++>
+<LAB>ros2_control Interface - Configure</LAB>
+<HWLAB>Robot Control with Arduino</HWLAB>
+<HWLAB>Launch the Complete Robot</HWLAB>
+
+Conclusions
+
+Recap
+What's next?
+[BONUS]: Continue Learning

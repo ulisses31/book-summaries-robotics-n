@@ -1,0 +1,313 @@
+Ultimate Robotics Programming with ROS 2 and Python - 2024 - TOC
+
+1. Introduction to Robot Operating System 2
+Introduction
+Structure
+Robot Programming
+Benefits of Using ROS 2
+
+ROS 2 Concepts
+ROS 2 Nodes
+Communication Models
+Nodes Discovery
+Packages and Workspace
+ROS 2 Distributions and Licensing
+
+ROS 2 Internal Architecture
+Data Distribution Service (DDS)
+
+Installing ROS 2
+Installing ROS 2 Using Dockers
+Installing Dockers
+Creating the ROS 2 Image
+Testing ROS 2 Installation
+Conclusion
+Points to Remember
+Multiple Choice Questions
+Answers
+Questions
+Key Terms
+
+2. Hands-on ROS 2 Programming Using Python
+Introduction
+Structure
+
+ROS 2 Command-Line Tools
+Creating a ROS 2 Workspace
+Creating a New ROS 2 Package
+
+Writing a First ROS 2 Node Using Python
+
+Implementing a Publisher Node Using Python
+Publishing a Sinusoidal Signal
+
+Implementing a Subscriber Node Using Python
+Receiving and Plotting a Sinusoidal Signal
+
+Implementing the Service Communication Model in ROS 2
+Creating a Package for the Interfaces
+Implementing the Service Node
+Implementing the Client Node
+
+Implementing ROS 2 Action Client and Server
+Creating an Action Package
+Creating an Action Server Node
+Creating an Action Client Node
+
+Creating Custom ROS 2 Messages
+Conclusion
+
+
+3. Supplementary Tools for ROS 2
+Introduction
+Structure
+
+Getting Started with Turtlesim
+Using Command-Line to Interact with ROS 2 Nodes
+
+Introducing ROS 2 Parameters
+Using ROS 2 Parameters
+
+Starting Nodes Using Launch Files
+Create your First Launch File
+
+ROS 2 Quality of Service (QoS)
+Implement the pub-sub Protocol with QoS
+
+Record Topic Data Using Bagfiles
+Starting with RQT
+Conclusion
+
+4. Robot Visualization and Simulation
+Introduction
+Structure
+The Importance of Simulation and Visualization
+
+Robot Modeling
+Getting Started with URDF and Xacro
+
+Writing your First Robot Model
+
+Publishing Robot Model
+TF System
+The robot_state_publisher Node
+
+Starting with Rviz2
+Visualizing the Robot Model
+
+Starting with Ignition Gazebo
+Launching Gazebo
+Spawn Robot Models in Gazebo
+
+Conclusion
+
+5. Writing Tests Using Pytest for ROS 2 Nodes
+Introduction
+Structure
+Getting Started with Code Testing
+Code Testing in Robotics
+
+Advances in Workspace Compilation
+Automatize ROS 2 Initialization
+Clean ROS 2 WorkspaceCompiling the Workspace
+Navigate the Workspace
+Compile Only One Package
+
+Introduction to Pytest Framework
+Write Your First Basic Pytest Code
+Check Test Results
+
+Using Pytest to Perform Integration Test
+Creating the Custom Messages Package
+Creating the ROS 2 Calculator Package
+Creating Advanced Pytest File
+Conclusion
+
+6. Controlling an Inverted Pendulum with a PID Controller
+Introduction
+Structure
+The Low-level Control Problem
+
+The ros2_control Package
+Simulate Robot Controllers
+
+Integrate Controllers into Gazebo Simulations
+
+Getting Started with the Controller Manager
+Use the ros2 control Command
+Implement a PID Controller in ROS 2
+
+Conclusion
+
+7. Laser-based Obstacle Avoidance with a Wheeled Mobile Robot
+Introduction
+Structure
+
+The Problem of Mobile Robot Navigation
+Differential Drive Locomotion
+Other Locomotion Systems
+
+Simulate a Differential Drive Robot Using Ignition Gazebo
+Add Sensors and Controllers to Your Robot
+Navigate the Environment Using the APF
+Test the Controller
+
+Conclusion
+
+8. ROS 2 Behaviour Trees Using Python
+Introduction
+Structure
+
+Introduction to Behaviour Trees
+BTs and FSMs
+Behaviour Tree Elements
+
+Getting Started with py_trees
+Using py_trees Sequence Composite
+Using py_trees Selector Composite
+
+Interact with the py_trees Blackboard
+Integrate ROS 2 with py_trees
+Conclusion
+
+9. Surveillance System Using Behaviour Trees
+Introduction
+Structure
+
+Introducing the TurtleBot Platform
+Simulate the TurtleBot Robot Using Gazebo
+Use Custom Models in Gazebo
+
+Executing Long-Term Operations with BTs
+Integrate ROS 2 Actions into BTs
+
+Implementing a Surveillance Robot Using ROS 2 and BTs
+Conclusion
+
+10. Robot Navigation Using ROS 2 Navigation Stack (Nav2)
+Introduction
+Structure
+Nav2 Architecture Overview
+
+Setting up Nav2 for Your Mobile Robot
+Define Robot Model and Transforms
+Understanding the Tfs
+Understand Robot Odometry
+Simulate Odometry Calculation Using Gazebo
+Mapping and Localization
+
+Starting with Map Generation Using Nav2
+Getting Started with Map Localization
+
+Getting Start with Robot Navigation in Nav2
+
+Implement a ROS 2 Client for Nav2
+
+Conclusion
+
+11. Robot Arm Control Using MoveIt 2
+Introduction
+Structure
+
+Understanding the Robot Manipulation Problem
+Robot Manipulator Control Modes
+
+Introducing MoveIt 2
+Integration of MoveIt with ROS 2
+
+Getting Started with MoveIt 2
+Using the MoveIt Setup Assistant
+Integrate MoveIt Files in the URDF Model
+Using Rviz2 to Plan Robot Motions
+
+Python Scripting and MoveIt 2
+Plan Trajectories in Joint Space
+Plan Trajectories in Cartesian Space
+
+Conclusion
+
+12. Programming Aerial Robots Using ROS 2
+Introduction
+Structure
+
+Introduction to Aerial Robotics
+Key Components of UAVs
+The PixHawk FCU and the PX4 Control Stack
+
+Simulating Aerial Robot Using ROS 2 and Gazebo
+PX4 Software-in-the-Loop
+Starting with QGroundControl
+PX4-ROS 2 Integration
+Controlling a UAV Using ROS 2
+
+Simulating Drones with Additional SensorsTeleoperating a UAV Using the Keyboard
+
+Conclusion
+
+13. Computer Vision Using ROS 2
+Introduction
+Structure
+
+Robotics and Computer Vision
+Introducing OpenCV
+Understanding ROS 2: OpenCV Integration
+Interfacing Cameras with ROS 2
+Starting with Camera Calibration
+
+Understanding Depth Sensors
+Starting Programming with Depth Sensors
+Getting Started with Point Cloud Data
+
+Solving Object Pose Reconstruction Using ARTags and ROS 2
+Getting Started with Aruco Using ROS 2
+Performing Object Classification Using Machine Learning
+
+Conclusion
+
+14. Object Detection Using ROS 2
+Introduction
+Structure
+Introducing the Object Detection Problem
+
+Using YOLO in a Simulation Environment
+Adding the Depth Sensor to a Simulated Robot
+Implementing YOLO Detector Messages
+Performing Image Elaboration Using YOLO
+
+Using YOLO and Depth Sensor to Reach a Desired Object with a Mobile Robot
+
+Conclusion
+
+15. Using Large Language Models with ROS 2
+Introduction
+Structure
+
+Introducing Large-Language Models
+LLM and Robotics
+LLM Basic Components
+LLM Models
+
+Starting a Local LLM Server Using ROS 2
+
+Interfacing ROS 2 with Ollama
+Using Function Calling with ROS 2
+Controlling a Mobile Robot Using LLMs
+
+Conclusion
+
+16. Deep Reinforcement Learning Using ROS 2
+Introduction
+Structure
+
+Introducing Deep Reinforcement Learning (DRL)
+DRL and Robotics
+Controlling a Robot Using Torque ValuesIntroducing Gymnasium Framework
+
+Setting the Cart-Pole Simulation Scene
+
+Integrating Gymnasium and ROS 2
+Training a Robot Using Gymnasium and stable_baselines3
+Controlling a Robot Using Deep Reinforcement Learning
+
+Conclusion
+

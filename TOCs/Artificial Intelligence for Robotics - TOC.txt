@@ -1,0 +1,185 @@
+Artificial Intelligence for Robotics - TOC
+---
+
+Part 1: Building Blocks for Robotics and Artificial Intelligence
+
+Chapter 1 - The Foundation of Robotics and Artificial Intelligence
+1.1 Technical requirements  
+1.2 The basic principle of robotics and AI  
+1.3 What is AI and autonomy (and what is it not)?  
+1.4 Are recent developments in AI anything new?  
+1.5 What is a robot?  
+1.6 Our sample problem – clean up this room!  
+   - The basics of robotics  
+   - The techniques used in this book  
+1.7 When do you need AI for your robot?  
+1.8 Introducing the robot and our development environment  
+   - Software components (ROS, Python, and Linux)  
+   - Robot control systems and a decision-making framework  
+1.9 Summary  
+1.10 Questions  
+1.11 Further reading  
+
+Chapter 2 - Setting Up Your Robot  
+2.1 Technical requirements  
+2.2 Understanding the anatomy of a robot  
+2.3 Introducing subsumption architecture  
+2.4 A brief introduction to ROS  
+2.5 Hardware and software setup  
+   - Preparing the laptop  
+2.6 Summary  
+2.7 Questions  
+2.8 Further reading  
+
+Chapter 3 - Conceptualizing the Practical Robot Design Process  
+3.1 A systems engineering-based approach to robotics  
+3.2 Understanding our task – cleaning up the playroom  
+3.3 Use cases  
+   - Our robot’s task – part 1  
+   - Our robot’s task – part 2  
+   - What is our robot to do?  
+3.4 Using storyboards  
+   - Storyboard – put away the toys  
+   - Project goals  
+3.5 Understanding the scope of our use case  
+3.6 Identifying our hardware needs  
+3.7 Breaking down our software needs  
+3.8 Writing a specification  
+3.9 Summary  
+3.10 Questions  
+3.11 Further reading  
+
+Part 2: Adding Perception, Learning, and Interaction to Robotics
+
+Chapter 4 - Recognizing Objects Using Neural Networks and Supervised Learning  
+4.1 Technical requirements  
+4.2 A brief overview of image processing  
+4.3 Understanding our object recognition task  
+4.4 Image manipulation  
+   - Convolution  
+   - Artificial neurons  
+   - Training a CNN  
+4.5 Using YOLOv8 – an object recognition model  
+   - Understanding how to train our toy detector  
+   - Building the toy detector  
+4.6 Summary  
+4.7  Questions  
+4.8 Further reading  
+
+Chapter 5 - Picking Up and Putting Away Toys using Reinforcement Learning and Genetic Algorithms  
+5.1 Technical requirements  
+5.2 Task analysis  
+5.3 Designing the software  
+5.4 Setting up the solution  
+   - Machine learning for robot arms  
+   - How do we pick actions?  
+5.5 Creating the interface to the arm  
+5.6 Introducing Q-learning for grasping objects  
+   - Writing the code  
+5.7 Introducing GAs  
+   - Understanding how the GA process works  
+   - Building a GA process  
+5.8 Alternative robot arm ML approaches  
+   - Google’s SAC-X  
+   - Amazon Robotics Challenge  
+5.9 Summary  
+5.10 Questions  
+5.11 Further reading  
+
+Chapter 6 - Teaching a Robot to Listen  
+6.1 Technical requirements  
+6.2 Exploring robot speech recognition with NLP  
+   - Briefly introducing the NLP concept  
+   - Setting our goals  
+   - Understanding the STT process  
+   - Clarifying the intent  
+6.3 Programming our robot  
+   - Setting up the hardware  
+   - Setting up the Mycroft software  
+   - Adding skills  
+6.4 Summary  
+6.5 Questions  
+6.6 Further reading  
+
+Part 3: Advanced Concepts – Navigation, Manipulation, Emotions, and More
+
+Chapter 7 - Teaching the Robot to Navigate and Avoid Stairs  
+7.1 Technical requirements  
+7.2 Task analysis  
+7.3 Understanding the SLAM methodology  
+7.4 Exploring alternative navigation techniques  
+7.5 Introducing the Floor Finder technique  
+7.6 Implementing neural networks  
+   - Processing the image  
+   - Training the neural network for navigation  
+   - CNN robot control implementation  
+7.7 Summary  
+7.8 Questions  
+7.9 Further reading  
+
+Chapter 8 - Putting Things Away  
+8.1 Technical requirements  
+8.2 Task analysis  
+8.3 Introducing decision trees  
+   - What do we mean by pruning?  
+   - Creating self-classifying decision trees  
+   - Understanding entropy  
+   - Implementing one-hot encoding  
+8.4 Random forests  
+8.5 Introducing robot path planning  
+   - Understanding the coordinate system  
+   - Developing a map based on our knowledge  
+   - Introducing the A* algorithm  
+   - Introducing the D* (D-star or dynamic A*) algorithm  
+   - GPS path finding  
+8.6 Summary  
+8.7 Questions  
+8.8 Further reading  
+
+Chapter 9 - Giving the Robot an Artificial Personality  
+9.1 Technical requirements  
+9.2 What is an artificial personality?  
+9.3 A brief introduction to the (obsolete) Turing test, chatbots, and generative AI  
+9.4 The art and science of simulation  
+9.5 An emotion state machine  
+9.6 Playing the emotion game  
+9.7 Creating a model of human behavior  
+   - Integrating an artificial personality into our robot  
+   - Constructing a personality  
+   - Adding context  
+   - Under construction  
+9.8 Developing the robot emotion engine  
+   - Creating a human emotion model  
+   - Creating human information storage  
+   - Context memory  
+9.9 Summary  
+9.10 Questions  
+9.11 Further reading  
+
+Chapter 10 - Conclusions and Reflections  
+10.1 Learning when to stop  
+10.2 Careers in robotics  
+10.3 Exploring the current state of AI  
+    - Looking ahead in AI and robotics  
+    - Is AI phobia reasonable?  
+    - Comparing the needs of humans and AI  
+10.4 Understanding risk in AI  
+10.5 Summary  
+10.6 Questions  
+10.7 Further reading  
+
+
+Appendix  
+A.1 Introducing MOSA  
+A.2 A brief overview of ROS 2  
+- Understanding the basic concepts  
+- Comparing ROS 2 and ROS  
+
+A.3 Software requirements for the robot  
+- Installing ROS 2  
+- Installing other packages  
+- Basic ROS 2 commands  
+
+A.4 Introducing the hardware for the robot  
+- Effectors – base, motors, and wheels  
+
